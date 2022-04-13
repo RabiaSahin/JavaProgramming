@@ -18,10 +18,10 @@ public class Square extends Shape{
     }
 
     //                              -100
-    public Square(double side) {
-        super("Square");
-        setSide(side);
-    }
+    public Square(double side) { // constructor call yapinca String name geldi () parantezin icinde
+        super("Square");   // ama biz zaten ismini bildigimiz icin parantezden onu silip Square yazdik
+        setSide(side); // Generate -> constructor yapinca this.side=side; olarak geldi ama
+    }                  // oncelikte setSide daki condition i konrol etmesi cin setSide(side) yazdik
 
 
     public double area() {

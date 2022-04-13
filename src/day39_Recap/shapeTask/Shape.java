@@ -9,11 +9,11 @@ public class Shape {
     }
 
     public void setName(String name) {
-        if(name == null){
+        if(name == null){ // null keyword not the object
             System.err.println("Name can not be null");
             System.exit(1); // 1: something went wrong
         }
-        if(name.isEmpty() || name.isBlank()){
+        if(name.isEmpty() || name.isBlank()){ // "" it means empty String, and it is still object
             System.err.println("Invalid name");
             System.exit(1);
         }

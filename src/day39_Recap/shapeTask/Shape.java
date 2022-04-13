@@ -35,7 +35,7 @@ public class Shape {
     }
 
 
-    @Override
+    @Override // it is optional. yazmak zorunda degilsin
     public String toString() {
         return "Shape{" +
                 "name='" + name + '\'' +

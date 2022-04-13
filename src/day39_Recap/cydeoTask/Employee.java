@@ -34,6 +34,10 @@ public class Employee extends Person {
     }
 
     public void setSalary(double salary) {
+        if(salary <= 0){
+            System.err.println("invalid salary");
+            System.exit(1);
+        }
         this.salary = salary;
     }
 

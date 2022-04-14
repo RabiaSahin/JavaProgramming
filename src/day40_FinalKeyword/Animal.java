@@ -17,8 +17,11 @@ public class Animal {
         this.size = size;
         this.age = age;
     }
+    // final variable, constructor create edildiginde object olusturulacagi icin 1 kez set edilmis oluyor ve final sadece 1 kez set edilebilir.
+    // o yuzden setter yaparken final variable i yapamiyoruz. 2. kez set e izin vermiyor
+    // ayrica setter yapildiginda variable da degisiklik olabiliyor ama final degistirilemez
 
-    ////----------Setters---------------------
+    ////----------Getters---------------------
 
     public String getName() {
         return name;
@@ -46,6 +49,7 @@ public class Animal {
 
 
     //----------Setters---------------------
+    // only 3 options it give us. because final is unchangeable and purpose of setter to change the variable(write)
 
     public void setName(String name) {
         this.name = name;
@@ -67,7 +71,7 @@ public class Animal {
         System.out.println(name+" is eating");
     }
 
-    public final void drink(){
+    public final void drink(){ // you can NOT override. not change implementation
         System.out.println(name+" is drinking water");
     }
 

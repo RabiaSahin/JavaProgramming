@@ -11,6 +11,8 @@ public class ThrowKeyword {
         int age = new Scanner(System.in).nextInt();
 
         if(age < 0){
+            /* System.err.println("invalid age :" + age);
+            System.exit(1); */ // bunu yapmak yerine throw keyword ile kendimiz exception create ediyoruz
             throw new InputMismatchException("Age can not be negative: "+age);
         }
 

@@ -23,10 +23,10 @@ public class EmployeeObjects {
         Employee{name=Jhon, age=34, gender=M, id=42, jobTitle='Lyft Driver', salary=75000.0}
 */
 
-        tester.work();
-        tester.sleep();
-        tester.bugReport();
-        tester.eat();
+        tester.work(); // from employee class
+        tester.sleep(); // from employee class
+        tester.bugReport(); // from employee class
+        tester.eat(); // from person class
 
         /*Ali is testing the application
         Ali sleeps 8 hours

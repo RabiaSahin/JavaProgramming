@@ -1,4 +1,4 @@
-package day39_Recap.shapeTask;
+package day38_Inheritance.day39_Recap.shapeTask;
 
 public class Square extends Shape{ // extends yazmadan once inherited edilmeyecek olan class a ait
                                   // variable (fields) ve method lari yaz, getter and setter yap sonra extends yaz

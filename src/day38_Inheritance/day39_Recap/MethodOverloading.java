@@ -1,4 +1,4 @@
-package day39_Recap;
+package day38_Inheritance.day39_Recap;
 
 public class MethodOverloading {
 

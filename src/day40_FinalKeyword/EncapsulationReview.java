@@ -1,7 +1,7 @@
 package day40_FinalKeyword;
 
-import day39_Recap.shapeTask.Circle;
-import day39_Recap.shapeTask.Square;
+import day38_Inheritance.day39_Recap.shapeTask.Circle;
+import day38_Inheritance.day39_Recap.shapeTask.Square;
 
 public class EncapsulationReview {
 

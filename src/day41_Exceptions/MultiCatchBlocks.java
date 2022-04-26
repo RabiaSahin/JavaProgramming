@@ -1,6 +1,6 @@
 package day41_Exceptions;
 
-import day39_Recap.cydeoTask.Employee;
+import day38_Inheritance.day39_Recap.cydeoTask.Employee;
 
 public class MultiCatchBlocks {
 

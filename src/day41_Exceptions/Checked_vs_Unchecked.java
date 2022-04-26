@@ -1,6 +1,6 @@
 package day41_Exceptions;
 
-import day39_Recap.cydeoTask.Student;
+import day38_Inheritance.day39_Recap.cydeoTask.Student;
 
 public class Checked_vs_Unchecked {
 

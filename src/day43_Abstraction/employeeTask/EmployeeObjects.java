@@ -17,10 +17,21 @@ public class EmployeeObjects {
         System.out.println(teacher);
         System.out.println(driver);
 
+        /*Employee{name=Ali, age=30, gender=M, id=42, jobTitle='SDET', salary=145000.0}
+        Employee{name=Alex, age=28, gender=M, id=32, jobTitle='Web Developer', salary=155000.0}
+        Employee{name=Angel, age=28, gender=F, id=22, jobTitle='English Teacher', salary=85000.0}
+        Employee{name=Jhon, age=34, gender=M, id=42, jobTitle='Lyft Driver', salary=75000.0}
+*/
+
         tester.work();
         tester.sleep();
         tester.bugReport();
         tester.eat();
+
+        /*Ali is testing the application
+        Ali sleeps 8 hours
+        Ali is creating bug reports
+        Ali is eating baklava*/
 
         System.out.println("-----------------------------------");
 
@@ -30,12 +41,21 @@ public class EmployeeObjects {
         developer.eat();
         developer.unitTest();
 
+        /*Alex is developing application
+        Alex sleeps 6 hours
+        Alex is eating baklava
+        Alex is unit testing
+*/
+
         System.out.println("-----------------------------------");
 
         teacher.work();
         teacher.sleep();
         teacher.eat();
 
+        /*Angel is teaching.
+        Angel is slepping 8 hours.
+        Angel is eating baklava*/
 
 
 

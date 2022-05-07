@@ -19,5 +19,7 @@ public final class Dog extends Animal implements Playable{
         System.out.println(getName() +" is playing with ball");
     }
 
-
+// class da implements yapinca hata verdi cunku regular class can not inherit abstract method directly
+// because abstract method has not body and regular class does not accept method without body
+// play method not inherited without body that's why we are overriding a play method and wrote a body
 }

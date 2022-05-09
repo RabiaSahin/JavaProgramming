@@ -1,6 +1,6 @@
 package day45_Abstraction;
 
-//extends:
+//extends: class tan classa one extends but interface dan interface a multiple possible
 class C{
 
 }
@@ -22,12 +22,12 @@ interface X{
 
 }
 
-interface Y extends X, Z{
+interface Y extends X, Z{ // multiple extends from interface to interface
 
 }
 
 
-//implements
+//implements it can multiple implements from interface but it can not from class
 
 class D implements X,Y,Z{
 

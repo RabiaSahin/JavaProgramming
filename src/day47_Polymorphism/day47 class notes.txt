@@ -201,7 +201,7 @@ Employee employee = new Tester();
 employee.testing()
 
 
-
+Hiding methods
 
 ParentClass
 	static void method1(){

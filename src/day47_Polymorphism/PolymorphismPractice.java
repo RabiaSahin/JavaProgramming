@@ -27,7 +27,7 @@ public class PolymorphismPractice {
                 new Tesla("Model X", 2014, 48000, "White", 236000),
         };
 
-
+   //1.1 Write a program that can display all the cars that are eligible for recall
         for(Car eachCar  : cars ){
 
             if(eachCar instanceof Toyota){
@@ -45,19 +45,14 @@ public class PolymorphismPractice {
                     System.out.println(eachCar);
                 }
             }
-
-
         }
-
 
         System.out.println("---------------------------------------------------------");
         // 1.2 Write a program that can display the car that has the highest mileage
         // 1.3 Write a program that can display the car that has the lowest mileage
 
-
         Car carWithHighestMileage = cars[0],
                 carWithLowestMileage =  cars[0];
-
 
         for (Car eachCar : cars) {
             if(eachCar.miles > carWithHighestMileage.miles){
@@ -67,21 +62,13 @@ public class PolymorphismPractice {
             if(eachCar.miles < carWithLowestMileage.miles){
                 carWithLowestMileage = eachCar;
             }
-
         }
 
         System.out.println(carWithHighestMileage);
         System.out.println(carWithLowestMileage);
 
-
-
-
     }
-
-
 }
-
-
 /*
 1 Given the following array that contains the car objects:
 				Car[] cars = {

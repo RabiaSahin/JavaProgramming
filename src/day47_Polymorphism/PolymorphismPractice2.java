@@ -28,7 +28,8 @@ public class PolymorphismPractice2 {
                 new Developer("Enes",  26, 'M',14, "Full Stack Developer", 142000),
                 new Tester("Mikael",  30, 'M',15, "SDET", 105000),
         };
-
+//	2.1 store all the developers & testers into the following List of employees
+//        		List<Employee> scrumMembers = new ArrayList<>();
 
         List<Employee> scrumMembers = new ArrayList<>();
 
@@ -54,18 +55,25 @@ public class PolymorphismPractice2 {
 
         }
 
-
         System.out.println("-------------------------------------------------------");
 
         Tester testerWithMaxSalary = testers.get(0);
         Developer developerWithMaxSalary = developers.get(0);
 
+        for (Tester eachTester : testers) {
+            if(eachTester.getSalary() > testerWithMaxSalary.getSalary() ){
+                testerWithMaxSalary = eachTester;
+            }
+        }
+        System.out.println(testerWithMaxSalary);
 
-
-
-
+        for (Developer eachDeveloper : developers) {
+            if(eachDeveloper.getSalary() > developerWithMaxSalary.getSalary() ){
+                developerWithMaxSalary = eachDeveloper;
+            }
+        }
+        System.out.println(developerWithMaxSalary);
     }
-
 }
 
 /*
@@ -90,10 +98,13 @@ public class PolymorphismPractice2 {
     		(import them from day43 package)
 	   	2.1 store all the developers & testers into the following List of employees
         		List<Employee> scrumMembers = new ArrayList<>();
+
         2.2 store all the testers into the following List of testers:
         		List<Tester> testers = new ArrayList<>();
+
         2.3 store all the developers into the following List of developers:
         		List<Developer> developers = new ArrayList<>();
+
         2.4 which tester has the maximum salary?
         2.5 which developer has the maximum salary?
  */

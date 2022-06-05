@@ -11,7 +11,7 @@ public class RemoveEven {
 
         Set<Integer> set = new LinkedHashSet<>(Arrays.asList(1,2,3,4,5,6,100, 90, 80, 75, 45, 35, 25, 15));
 
-        //  set.removeIf( p -> p %2 ==0);
+          set.removeIf( p -> p %2 ==0);
 
         Iterator<Integer> it= set.iterator();
         while(it.hasNext()){

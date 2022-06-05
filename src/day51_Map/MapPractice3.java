@@ -8,6 +8,8 @@ public class MapPractice3 {
 
     public static void main(String[] args) {
 
+        // there are more than one max salary
+
         Map<String, Integer> map = new LinkedHashMap<>();
         map.put("John", 123000);
         map.put("Antony", 100000);

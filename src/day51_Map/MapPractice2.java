@@ -21,7 +21,7 @@ public class MapPractice2 {
 
         //  1 who has the maximum and minimum salary?
         String name1 = "";
-        int maxSalary = Integer.MIN_VALUE;
+        int maxSalary = Integer.MIN_VALUE; // min assign edip diger salaryler ile compare et ve buyugu assign et.
 
         String name2 = "";
         int minSalary = Integer.MAX_VALUE;
